@@ -1,0 +1,496 @@
+body{
+  background-color: #1a1c24;
+}
+
+.Fond{
+	text-align: center;
+	width: 630px;
+	height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 19px;
+  margin-bottom: 80px;
+	background: #2d2725;
+  border-radius: 20px;
+}
+
+.Fond2{
+  text-align: center;
+  width: 175px;
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #2d2725;
+  border-radius: 15px;
+}
+
+.Titre{
+	text-align: center;
+	height: 91px;
+
+	font-family:Bradley Hand;;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 89px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ffbc43;
+}
+
+.Titre2{
+  text-align: center;
+  height: 91px;
+
+  font-family:Apple Chancery;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 89px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ffbc43;
+}
+
+.Entrer{
+  text-align: center;
+  height: 97px;
+
+  font-family: Comic Sans MS;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100px;
+
+  color: #000000;
+}
+
+.entrer-link {
+  text-decoration: none;
+  color: #ffbc43;
+
+}
+
+.banner {
+  background-image: url(Image/Lenaura-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 838px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+
+.banner-content {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 400px){
+  .banner{
+    display: inherit;
+    height: 700px;
+    background-image: url(Image/celeste-9.jpg)
+  }
+  .banner-content{
+    margin-top: 15px;
+    padding: 14px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+    
+  }
+  .Fond{
+    height: 80px;
+    max-width: 250px;
+    margin-top: 77px;
+    margin-bottom: auto;
+    margin-right: 60px;
+    background: #849FA0;
+  }
+
+  .Titre{
+    font-size: 15px;
+  }
+
+  .Fond2{
+    width: 105px;
+    margin-top: 201px;
+    margin-left: -17px;
+    height: 46px;
+    background: #C5CED3;
+  }
+
+  .Entrer{
+    font-size: 25px;
+  }
+
+}
+
+.Image{
+  background-image: url(Image/NY-10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1438px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.bg-lights {
+  background-color: #0000002e;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.navbar-light .navbar-brand{
+  color: rgb(255 255 255 / 90%);
+}
+
+.navbar-nav{
+  padding-left: 45px;
+  width: 100%; 
+}
+
+.nav-bar{
+  color: rgb(255 255 255 / 55%);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgb(255 255 255 / 55%);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  color: rgb(255 255 255);
+}
+
+.nav-link {
+  width: 17%;
+}
+
+.nav-item {
+  width: 17%;
+}
+
+.Fond3{
+  text-align: center;
+  width: 89%;
+  height: 328px;
+  justify-content: center;
+  margin: auto;
+  background: rgba(197, 206, 210, 0.67); 
+  margin-top: 180px;
+  margin-bottom: 47px;
+  border-radius: 15px;
+}
+
+.Entrer2{
+  text-align: center;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.video{
+  width: 89%;
+  margin: auto;
+  margin-top: 55px;
+}
+
+.video video {
+  width: 100%;
+}
+
+@media screen and (max-width: 400px){
+
+  .Image{
+    height: 812px;
+  }
+
+  .Entrer2{
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .navbar-brand{
+    padding-left: 67px;
+    font-size: x-large;
+  }
+
+  .button{
+    padding-right: 10px;
+  }
+
+  .navbar-nav{
+    background-color: #15171e;
+    padding-left: 70px;
+    margin-top: 25px;
+  }
+
+  .navbar-light .navbar-toggler{
+    background-color: #ffffff94
+  }
+
+  .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+.Fondtitre{
+  text-align: center;
+  width: 710px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 80px;
+  background: #3d4446;
+  border-radius: 20px;
+}
+
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 45px;
+}
+
+#contact{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#contact h3{
+    width: 30%;
+    text-transform: uppercase;
+    margin: 10px auto auto auto;
+    border-bottom: 2px solid rgb(255 255 255 / 85%); 
+    font-size: 22px;  
+    color: rgb(255 255 255 / 75%)  
+}
+
+form{
+    margin: 40px 0 20px 0;
+}
+
+label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.button-3{
+    color:#fff;
+    font-size: 15px;
+    padding: 6px 9px 6px 9px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #444;
+}
+
+.end{
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background: #0f1015;
+  margin-top: 10px;
+}
+
+.copyright{
+  text-align:center;
+  color: rgb(255 255 255 / 75%);
+}
+
+@media screen and (max-width: 400px){
+
+  .Fondtitre{
+    height: 60px;
+    width: 80%;
+    margin-bottom: 38px;
+  }
+
+  .cards{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    }
+
+  .card-element{
+    width: 93%;
+    margin-bottom: 12px;
+  }
+
+  .end{
+    height: 93px;
+  }
+
+  #contact{
+    padding: 0;
+  }
+
+  #contact h3{
+    width: 55%;
+    font-size: 15px;
+    border-bottom: 1px solid #000000;
+    padding: 6px;
+  }
+
+  form{
+    margin: 10px 14px 10px 0;
+  }
+
+  label{
+    font-size: 10px;
+    margin-right: -2px;
+    margin-left: 10px;
+  }
+
+  input{
+    font-size: 10px;
+    line-height: initial;
+    width: 60px;
+  }
+
+  .button-3{
+    font-size: 8px;
+    padding: 4px 4px 4px 4px;
+    width: 20px;
+  }
+
+  .copyright{
+    font-size: 10px;
+  }
+}
+
+.text a{
+  color: white;
+  text-decoration: none;
+}
+
+.text a p{
+  color: white;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.cards-flex {
+  padding: 15px 0;
+  width: 69%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.btn-primary{
+  background-color: #38454e;
+  color: #ffffff;
+  border-color: white;
+}
+
+.card-body{
+  background-color: #3e4446;
+  color: #ffffffcc;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+  border: none;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-bottom: 100px;
+}
+
+.gallery {
+  margin: 8px;
+  float: left;
+  width: 32%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 400px){
+
+  .gallery-container {
+    justify-content: center;
+  }
+
+  .gallery {
+    margin: 2px;
+    width: 48%;
+  }
+
+}
+
+
+
